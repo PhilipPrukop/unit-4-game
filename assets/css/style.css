@@ -1,0 +1,44 @@
+h1 {
+    font-size: 60px;
+    font-style: bold bold;
+
+}
+
+p {
+    font-display: center;
+    margin: 20px, 35px;   
+    text-align: center;
+    font-style: bold;
+    font-size: 15px;
+    padding: 0px, 20px;
+}
+
+#myWrapper {
+    background: url("https://images.unsplash.com/photo-1536567369239-c17c6fd1a9d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=011ccfbeb1bdc572aebbbc3b7bc74636&auto=format&fit=crop&w=651&q=80");
+    background-color: white;
+    position: center;
+    text-align: center;
+    width: 100%;
+}
+
+#rules {
+    text-align: left;
+}
+
+
+
+#crystals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gem {
+    height: 100px;
+    
+
+}
+
+
+

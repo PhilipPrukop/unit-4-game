@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <title>Crystal Collector!</title>
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <!--css links style.css and css resets-->
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel = "stylesheet" type = "text/css" media = "screen" href="assets/css/style.css" />
+   <!--javascripts links-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src = "assets/javascript/game.js"></script>
+</head>
+<body  id = "myWrapper">
+
+    
+    <div>
+        <h1>Crystal Collector!</h1>
+    </div>
+        <div id = "rules">
+            <p>You will be given a random number at the start of the game.<br/>
+
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br/>
+
+            You win the game by matching your total score to the random number, You lose the game if your total score goes above the random numer.<br/>
+
+            The value of each crystal is hidden from you until you click on it.<br/>
+
+            Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+
+        <div>
+            <div>Target Number: 55</div>
+            <div>Wins</div>
+            <div id = "win">0</div>
+            <div>Losses</div>
+            <div id = "loss">0</div>
+        </div>
+
+        <div class = "row justify-content-center align-items-center h-100" id = "crystals">
+            <div id = "gem0" class="col-sm-1 gem">
+                    <img class="img-thumbnail" id="image" src="assets/images/redGem.png" alt="stockNature">
+            </div>
+            <div id = "gem1" class = "col-sm-1 gem">
+                    <img class="img-thumbnail" id="image" src="assets/images/yellowGem.png" alt="stockNature">
+            </div>
+            <div id = "gem2" class = "col-sm-1 gem">
+                    <img class="img-thumbnail" id="image" src="assets/images/blueGem.png" alt="stockNature">
+            </div>
+            <div id = "gem3" class = "col-sm-1 gem">
+                    <img class="img-thumbnail" id="image" src="assets/images/greenGem.png" alt="stockNature">
+            </div>
+        </div>
+        <div>Your Current Number:</div>
+        <div id = "playerTotal"></div>
+    
+</body>
+</html>
